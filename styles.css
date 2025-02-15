@@ -1,3 +1,7 @@
+body {
+  display: flex;
+}
+
 #navbar {
   width: 200px;
   position: fixed;
