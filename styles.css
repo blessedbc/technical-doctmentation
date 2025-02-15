@@ -12,3 +12,38 @@ body {
   padding: 10px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
+#main-doc {
+  margin-left: 220px;
+  padding: 20px;
+}
+.main-section {
+  margin-bottom: 20px;
+}
+header {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+code {
+  display: block;
+  background-color: linear-gradient(red, white);
+  padding: 10px;
+  border-radius: 5px;
+}
+li {
+  margin-bottom: 5px;
+}
+.nav-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    position: relative;
+    height: auto;
+  }
+  #main-doc {
+    margin-left: 0;
+  }
+}
